@@ -1,0 +1,42 @@
+/* @media(prefers-color-scheme: dark) {
+    :root {
+        --primary-background: #313131;
+        --primary-text-color: #FFFFFF;
+    }
+    
+    .header__nav-content-logo::before {
+        content: url('../images/logo-dark.png');
+    }
+    
+    body {
+        background: var(--primary-background);
+    }
+    
+    /* .header__btn {
+        background: var(--primary-background);
+    } */
+    
+    /* .header__list-link {
+        color: #FFFFFF;
+    }
+    
+    .header__slide1-title {
+        color: #FFFFFF;
+    }
+    
+    .header__slide1-button {
+        background: var(--primary-background);
+        color: #FFFFFF;
+        border-color: #FFFFFF ;
+    }
+    
+    .slide-img {
+        filter: drop-shadow(-10px 5px 3px rgba(0, 0, 0, 0.25));
+    }
+    
+    .nav {
+        background: black;
+    }
+    .btn {
+        border-color: #FFFFFF;
+    } */

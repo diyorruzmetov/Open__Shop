@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenShop</title>
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="libs/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="container">
+                <div class="header__nav-prenav">
+                    <nav class="navbar navbar-expand-lg d-flex  justify-content-end align-items-center">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="header__toggler-icon fas"></span>
+                        </button>
+                        <div class="header__content">
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            English
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="">English</a></li>
+                                            <li><a class="dropdown-item" href="">Russian</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <ul class="header__prenav-list d-flex align-items-center">
+                                <li>
+                                    <a href="" class="header__prenav-icon fal"></a>
+                                    <a href="" class="header__prenav-link">(907) 555-0101</a>
+                                </li>
+                                <li>
+                                    <a href="" class="header__prenav-user fal"></a>
+                                    <a href="" class="header__prenav-link">Sing in</a>
+                                </li>
+                                <li>
+                                    <a href="" class="header__prenav-cart fal"></a>
+                                    <a href="" class="header__prenav-link">Cart</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </nav>
+
+        <div class="header__nav-content">
+            <div class="container">
+                <div class="header__content-info d-flex align-items-center">
+                    <div class="header__nav-content-logo">
+                        <img src="images/logo-dark.png" alt="">
+                    </div>
+
+                    <div class="navbar__search navbar-expand-lg d-flex justify-content-center">
+                        <form class="d-flex" style="margin-left: 150px;">
+                            <input class="header__search" type="search" placeholder="What are you looking for?"
+                                aria-label="Search" style="width: 460px;">
+                            <button class="btn link-light" type="submit">SEARCH OUR STORE</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header__nav-list">
+                <div class="container">
+                    <ul class="header__list">
+                        <div class="dropdown">
+                            <button class="header__btn btn-secondary dropdown__btn" type="button"
+                                id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a href="" class="header__list-link">Cell Phones & Tablets</a>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark " aria-labelledby="dropdownMenuButton2">
+                                <div class="header_menu">
+                                    <ul class="dropdown__list">
+                                        <a class="dropdown-item active" href="#">Cell Phones</a>
+                                        <hr class="dropdown-divider">
+                                        <li>
+                                            <a class="dropdown-link active" href="#">Xiaomi </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-link" href="#">Apple</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-link" href="#">Samsung</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-link" href="#">Huawei</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-link" href="#">BQ</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-link" href="#">Nokia</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-link" href="#">Inoi</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-link" href="#">Vivo</a>
+                                        </li>
+                                    </ul>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a class="dropdown-item active" href="#">Tablets</a>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li>
+                                            <a class="dropdown__link" href="#">Xiaomi</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown__link" href="#">Apple</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown__link" href="#">Samsung</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown__link" href="#">Huawei</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown__link" href="#">BQ</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown__link" href="#">More...</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </ul>
+                        </div>
+
+                        <li>
+                            <a href="" class="header__list-link">Computers & Laptop</a>
+                        </li>
+                        <li>
+                            <a href="" class="header__list-link">TV & Video</a>
+                        </li>
+                        <li>
+                            <a href="" class="header__list-link">Asseccories</a>
+                        </li>
+                        <li>
+                            <a href="" class="header__list-link">Home appliance</a>
+                        </li>
+                        <li>
+                            <a href="" class="header__list-link">Video Games & Consoles</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="header__slide">
+                <div class="container">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="d-flex align-items-center">
+                                    <img src="./images/slide-1.png" class="slide-img d-block" alt="...">
+                                    <div>
+                                        <h5 class="header__slide1-title">Color your days with small joy</h5>
+                                        <div class="slide1__button">
+                                            <a class="header__slide1-button">SHOP NOW</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="d-flex align-items-center">
+                                    <img src="./images/slide-2.png" class="d-block" alt="...">
+                                    <div>
+                                        <h5 class="header__slide1-title">Color your days with small joy</h5>
+                                        <div class="slide1__button">
+                                            <a class="header__slide1-button">SHOP NOW</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+        </div>
+
+        <div class="container">
+            <span class="phone__title">Apple</span>
+            <div class="main__phones">
+                <div class="main__phone">
+                    <img src="images/pro-max.png" alt="" class="iphone-img">
+                    <h4 class="iphone__title">IPhone 12 Pro Max 128GB (Gray)</h4>
+                    <p class="iphone__price">1300$</p>
+                    <i class="fal fa-heart heart"></i>
+                    <a class="iphone__btn" href="">BUY</a>
+                </div>
+                <div class="main__phone">
+                    <img src="images/11-pro.png" alt="" class="iphone-img">
+                    <h4 class="iphone__title">IPhone 11 Pro 128GB (Yellow)</h4>
+                    <p class="iphone__price">700$</p>
+                    <div class="heart fal"></div>
+                    <a class="iphone__btn" href="">BUY</a>
+                </div>
+                <div class="main__phone">
+                    <img src="images/12-pro.png" alt="" class="iphone-img">
+                    <h4 class="iphone__title">IPhone 12 Pro 256 GB (Blue)</h4>
+                    <p class="iphone__price">1500$</p>
+                    <i class="fal fa-heart heart"></i>
+                    <a class="iphone__btn" href="">BUY</a>
+                </div>
+                <div class="main__phone">
+                    <img src="images/11-prored.png" alt="" class="iphone-img">
+                    <h4 class="iphone__title">IPhone 11 Pro 256 GB (Red)</h4>
+                    <p class="iphone__price">850$</p>
+                    <i class="fal fa-heart heart"></i>
+                    <a class="iphone__btn" href="">BUY</a>
+                </div>
+            </div>
+
+            <div class="button">
+                <a href="index.html" class="button-link">LEARN MORE</a>
+            </div>
+
+            <span class="phone__title">Samsung</span>
+            <div class="main__phones">
+                <div class="main__phone">
+                    <img src="images/a51.png" alt="" class="iphone-img">
+                    <h4 class="iphone__title">Samsung Galaxy A51 4/64GB (Black)</h4>
+                    <p class="iphone__price">230$</p>
+                    <i class="fal fa-heart heart"></i>
+                    <a class="iphone__btn" href="">BUY</a>
+                </div>
+                <div class="main__phone">
+                    <img src="images/a21s.png" alt="" class="iphone-img">
+                    <h4 class="iphone__title">Samsung Galaxy A21S 3/32GB (Blue)</h4>
+                    <p class="iphone__price">250$</p>
+                    <i class="fal fa-heart heart"></i>
+                    <a class="iphone__btn" href="">BUY</a>
+                </div>
+                <div class="main__phone">
+                    <img src="images/s10lite.png" alt="" class="iphone-img">
+                    <h4 class="iphone__title">Samsung Galaxy S10Lite 6/128GB (Blue)</h4>
+                    <p class="iphone__price">535$</p>
+                    <i class="fal fa-heart heart"></i>
+                    <a class="iphone__btn" href="">BUY</a>
+                </div>
+                <div class="main__phone">
+                    <img src="images/a41.png" alt="" class="iphone-img">
+                    <h4 class="iphone__title">Samsung Galaxy A41 4/64GB (Blue)</h4>
+                    <p class="iphone__price">237$</p>
+                    <i class="fal fa-heart heart"></i>
+                    <a class="iphone__btn" href="">BUY</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="button">
+            <a href="" class="button-link">LEARN MORE</a>
+        </div>
+
+        <div class="main__content">
+            <div class="container">
+                <span class="phone__title">Xiaomi</span>
+                <div class="main__phones">
+                    <div class="main__phone">
+                        <img src="images/mi10pro.png" alt="" class="iphone-img">
+                        <h4 class="iphone__title">Mi 10t Pro 8/256GB (Black)</h4>
+                        <p class="iphone__price">730$</p>
+                        <i class="fal fa-heart heart"></i>
+                        <a class="iphone__btn" href="">BUY</a>
+                    </div>
+                    <div class="main__phone">
+                        <img src="images/mi10prosilver.png" alt="" class="iphone-img">
+                        <h4 class="iphone__title">Xiaomi mi 10t Pro 8/256GB (Silver)</h4>
+                        <p class="iphone__price">727$</p>
+                        <div class="heart fal"></div>
+                        <a class="iphone__btn" href="">BUY</a>
+                    </div>
+                    <div class="main__phone">
+                        <img src="images/mi10lite.png" alt="" class="iphone-img">
+                        <h4 class="iphone__title">Mi 10 Lite 6/64GB (Grey)</h4>
+                        <p class="iphone__price">337$</p>
+                        <i class="fal fa-heart heart"></i>
+                        <a class="iphone__btn" href="">BUY</a>
+                    </div>
+                    <div class="main__phone">
+                        <img src="images/mi10.png" alt="" class="iphone-img">
+                        <h4 class="iphone__title">Mi 10 Lite 6/64GB (Blue)</h4>
+                        <p class="iphone__price">325$</p>
+                        <i class="fal fa-heart heart"></i>
+                        <a class="iphone__btn" href="">BUY</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="button">
+            <a href="" class="button-link">LEARN MORE</a>
+        </div>
+
+        <div class="main-xbox">
+            <div class="backround">
+                <div class="main__xbox-info">
+                    <span class="xbox-title">Xbox Wireless Controller</span>
+                    <span class="xbox-text">Textured triggers and bumpers I Hybrid D-pad I Button mapping I
+                        Bluetooth</span>
+                </div>
+                <div class="xbox-button">ADD TO CART</div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="main__items">
+                <a class="main__item">1</a>
+                <a class="main__band"></a>
+                <a class="main__item">2</a>
+                <a class="main__band"></a>
+                <a class="main__item">3</a>
+                <a class="main__band"></a>
+                <a class="main__item-next">NEXT</a>
+                <div class="main__item-icon far"></div>
+            </div>
+        </div>
+
+    </main>
+    
+    <!-- FOOTER START -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <a href="">
+                    <img class="footer-logo" src="images/logo-white.png" alt="">
+                </a>
+                <form action="" class="footer__content-form ">
+                    <span class="footer__content-info">Subscribe to Newslatter</span>
+                    <div class="footer_form">
+                        <input type="text" class="footer__content-input">
+                        <button class="footer__content-button">Sign up</button>
+                    </div>
+                    <div class="footer__content-news">
+                        <ul class="footer__content-list d-flex">
+                            <li>
+                                <a href="" class="footer__content-link">News</a>
+                            </li>
+                            <li>
+                                <a href="" class="footer__content-link">Help</a>
+                            </li>
+                            <li>
+                                <a href="" class="footer__content-link">Contat</a>
+                            </li>
+                        </ul>
+                    </div>
+                </form>
+                <div class="footer__content-icons">
+                    <a class="footer__content-telegram fab"></a>
+                    <a class="footer__content-facebook fab"></a>
+                    <a class="footer__content-instagram fab"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- FOOTER END -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
